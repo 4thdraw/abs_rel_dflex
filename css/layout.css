@@ -58,16 +58,8 @@ li:hover  .globalbox{
     font-size: 1.5em;
 }
 
-.globala i:nth-child(2), /*아시아지도 원래 안보임*/
-li:hover .globala i:nth-child(1) /*마우스 올라가면 망사지구 사라짐*/
+li:hover .globala i:before
 {
-    display: none;
-}
-li:hover .globala i:nth-child(2), 
-/*마우스 올라가면 아시아지도 나타남*/
-.globala i:nth-child(1)
-/* 망사지구 보임*/
-{
-    display: block;
+    content: "\F883";
 }
 
